@@ -1,0 +1,27 @@
+{
+  "name": "sango-and-co-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangoandco/sango-and-co-server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sangoandco/sango-and-co-server/issues"
+  },
+  "homepage": "https://github.com/sangoandco/sango-and-co-server#readme",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^4.12.1",
+    "nodemon": "^2.0.20"
+  }
+}
